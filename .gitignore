@@ -1,0 +1,20 @@
+# Python 캐시 파일 제외
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTorch 및 AI 모델 대용량 가중치 제외
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Isaac Sim / Omniverse 3D 자산 파일 제외 (용량이 큰 경우)
+*.usd
+*.usda
+*.usdc
+
+# 기타 가상환경 및 환경변수
+.venv/
+venv/
+.env
